@@ -1,0 +1,4 @@
+BL_constant_module
+number_of_values=1
+values[0]=real 1 0
+value_names[0]=tonic_firing_rate

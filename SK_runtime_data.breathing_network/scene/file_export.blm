@@ -1,0 +1,7 @@
+BL_file_export_module
+output_file_name=file_export.out
+number_of_exports=1
+use_trigger=1
+exports[0]=value
+export_names[0]=test_voltage
+test_voltage.value=real 1 0.

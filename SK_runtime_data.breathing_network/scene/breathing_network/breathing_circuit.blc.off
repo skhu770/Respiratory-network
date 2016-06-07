@@ -1,0 +1,109 @@
+BL_linear_transformation_connector
+# A different connector type, this allows relationships of the form:
+# <destination>=<multiplier>*<source1>+<multiplier>*<source2>+...+<constant>
+# i.e. a linear combination of variables.
+
+# Simple relationships can still be specified too.
+
+###weight constants
+
+##Spinal Cord Primary transmission output
+diaphragm/input_voltages[0]=weights_constants/output_rvrg[0]*rvrg/voltage
+ext_int/input_voltages[0]=weights_constants/output_rvrg[1]*rvrg/voltage
+
+
+
+
+
+
+
+
+
+
+
+##Rhythm generator circuit
+
+# pre i tonic external input with weights
+pre_i/input_voltages[0]=weights_constants/output_raphe*raphe/tonic_firing_rate
+#pre i self activation
+pre_i/input_voltages[1]=weights_constants/output_pre_i[1]*pre_i/voltage
+#pre i inhibitor
+pre_i/input_voltages[2]=weights_constants/output_aug_e[0]*aug_e/voltage
+pre_i/input_voltages[3]=weights_constants/output_post_i[0]*post_i/voltage
+
+# early_i inputs with weights
+early_i/input_voltages[0]=weights_constants/output_pre_i[0]*pre_i/voltage
+early_i/input_voltages[1]=weights_constants/output_aug_e[1]*aug_e/voltage
+early_i/input_voltages[2]=weights_constants/output_post_i[1]*post_i/voltage
+
+# post i tonic external input with weights
+post_i/input_voltages[2]=weights_constants/output_pons[0]*pons/tonic_firing_rate
+# post_i inputs with weights
+post_i/input_voltages[0]=weights_constants/output_early_i[0]*early_i/voltage
+post_i/input_voltages[1]=weights_constants/output_aug_e[2]*aug_e/voltage
+
+#aug e tonic external input with weights
+aug_e/input_voltages[0]=weights_constants/output_rtn[0]*rtn/tonic_firing_rate
+#SPECIAL aug e input with weights
+aug_e/input_voltages[1]=weights_constants/output_pre_i[2]*pre_i/voltage
+#aug e inhibitory input with weights
+aug_e/input_voltages[2]=weights_constants/output_early_i[1]*early_i/voltage
+aug_e/input_voltages[3]=weights_constants/output_post_i[2]*post_i/voltage
+
+######################################################################################
+
+###input and membrane frequency constants
+
+#input frequency constants pre i excitatory
+pre_i/input_frequency_constants[0]=frequency_constants/pre_ifc_ex
+#input frequency constants pre i self
+pre_i/input_frequency_constants[1]=frequency_constants/self_ifc_ex
+#input frequency constants pre i inhibitory
+pre_i/input_frequency_constants[2]=frequency_constants/pre_ifc_ex
+pre_i/input_frequency_constants[3]=frequency_constants/pre_ifc_ex
+
+#input frequency constants early i excitatory
+early_i/input_frequency_constants[0]=frequency_constants/early_ifc_in
+#input frequency constants early i inhibitory
+early_i/input_frequency_constants[1]=frequency_constants/early_ifc_in
+early_i/input_frequency_constants[2]=frequency_constants/early_ifc_in
+
+#input frequency constants post i excitatory
+post_i/input_frequency_constants[2]=frequency_constants/post_ifc_in
+#input frequency constants post i inhibitory
+post_i/input_frequency_constants[1]=frequency_constants/post_ifc_in
+post_i/input_frequency_constants[0]=frequency_constants/post_ifc_in
+
+#input frequency constants aug e excitatory
+aug_e/input_frequency_constants[0]=frequency_constants/aug_ifc_in
+#input frequency constants aug e inhibitory
+aug_e/input_frequency_constants[1]=frequency_constants/aug_ifc_in
+aug_e/input_frequency_constants[2]=frequency_constants/aug_ifc_in
+aug_e/input_frequency_constants[3]=frequency_constants/aug_ifc_in
+
+#######################################################################################
+#membrane frequency constants
+pre_i/membrane_frequency_constant=frequency_constants/pre_mfc_ex
+early_i/membrane_frequency_constant=frequency_constants/early_mfc_in
+post_i/membrane_frequency_constant=frequency_constants/post_mfc_in
+aug_e/membrane_frequency_constant=frequency_constants/aug_mfc_in
+
+######################################################################################
+
+# connect rate to ifc
+#early_i/membrane_frequency_constant=constants/rate*constants/early_i_mfc
+#early_i/input_frequency_constants[0]=constants/rate*constants/early_i_ifc0
+#early_i/input_frequency_constants[1]=constants/rate*constants/early_i_ifc1
+#early_i/input_frequency_constants[2]=constants/rate*constants/early_i_ifc2
+
+
+
+### connect voltages from each module to the constants module to view together
+voltage_constants/pre_i=pre_i/voltage
+voltage_constants/early_i=early_i/voltage
+voltage_constants/post_i=post_i/voltage
+voltage_constants/aug_e=aug_e/voltage
+voltage_constants/pons=pons/tonic_firing_rate
+voltage_constants/rtn=rtn/tonic_firing_rate
+voltage_constants/raphe=raphe/tonic_firing_rate
+###

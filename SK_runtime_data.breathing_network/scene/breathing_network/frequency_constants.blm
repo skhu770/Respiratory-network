@@ -1,0 +1,90 @@
+BL_constant_module
+
+#input frequency constants
+#membrane frequency constants
+
+number_of_values=15
+
+############Rhythmic circuitry mfc and ifc########
+#pre i
+#ifc excitatory
+values[0]=real 1 50
+value_names[0]=pre_ifc_ex
+
+#ifc self
+values[1]=real 1 0
+value_names[1]=self_ifc_ex
+
+#mfc excitatory
+values[2]=real 1 50
+value_names[2]=pre_mfc_ex
+
+
+#early i
+#ifc inhibitory
+values[3]=real 1 50
+value_names[3]=early_ifc_in
+
+#mfc inhibitory
+values[4]=real 1 50
+value_names[4]=early_mfc_in
+
+
+#post i
+#ifc inhibitory
+values[5]=real 1 50
+value_names[5]=post_ifc_in
+
+#mfc inhibitory
+values[6]=real 1 50
+value_names[6]=post_mfc_in
+
+
+#aug e
+#ifc inhibitory
+values[7]=real 1 50
+value_names[7]=aug_ifc_in
+
+#mfc inhibitory
+values[8]=real 1 50
+value_names[8]=aug_mfc_in
+
+
+############Motor circuitry mfc and ifc########
+#diaphragm
+#ifc excitatory
+values[9]=real 1 50
+value_names[9]=dia_ifc_ex
+
+#mfc excitatory
+values[10]=real 1 50
+value_names[10]=dia_mfc_ex
+
+#external intercostals
+#ifc excitatory
+values[11]=real 1 50
+value_names[11]=ext_ifc_ex
+
+#mfc excitatory
+values[12]=real 1 50
+value_names[12]=ext_mfc_ex
+
+############Transmission circuitry mfc and ifc########
+#Rostral Ventral Respiratory Group
+#ifc excitatory
+values[13]=real 1 50
+value_names[13]=rvrg_ifc_ex
+
+#mfc excitatory
+values[14]=real 1 50
+value_names[14]=rvrg_mfc_ex
+
+############speech########
+#cortical control#
+#ifc excitatory
+#values[15]=real 1 50
+#value_names[15]=speech_ifc_in
+
+#mfc excitatory
+#values[16]=real 1 50
+#value_names[16]=speech_mfc_in

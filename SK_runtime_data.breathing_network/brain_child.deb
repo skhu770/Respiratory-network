@@ -1,0 +1,351 @@
+Tue Jun 07 14:00:44 2016
+
+glew_result=1 (0 1 2)
+BL_ERROR.  Could not create module: splash_module
+m_context->create succeeded
+m_context->makeCurrent succeeded
+glew_result=0 (0 1 2)
+glew_result=0 (0 1 2)
+OpenGL version : 4.3.0
+GLSL version : 4.30 NVIDIA via Cg compiler
+Number of OpenGL extensions=299
+0) GL_AMD_multi_draw_indirect
+1) GL_ARB_arrays_of_arrays
+2) GL_ARB_base_instance
+3) GL_ARB_blend_func_extended
+4) GL_ARB_clear_buffer_object
+5) GL_ARB_color_buffer_float
+6) GL_ARB_compressed_texture_pixel_storage
+7) GL_ARB_conservative_depth
+8) GL_ARB_compute_shader
+9) GL_ARB_copy_buffer
+10) GL_ARB_copy_image
+11) GL_ARB_debug_output
+12) GL_ARB_depth_buffer_float
+13) GL_ARB_depth_clamp
+14) GL_ARB_depth_texture
+15) GL_ARB_draw_buffers
+16) GL_ARB_draw_buffers_blend
+17) GL_ARB_draw_indirect
+18) GL_ARB_draw_elements_base_vertex
+19) GL_ARB_draw_instanced
+20) GL_ARB_ES2_compatibility
+21) GL_ARB_ES3_compatibility
+22) GL_ARB_explicit_attrib_location
+23) GL_ARB_explicit_uniform_location
+24) GL_ARB_fragment_coord_conventions
+25) GL_ARB_fragment_layer_viewport
+26) GL_ARB_fragment_program
+27) GL_ARB_fragment_program_shadow
+28) GL_ARB_fragment_shader
+29) GL_ARB_framebuffer_no_attachments
+30) GL_ARB_framebuffer_object
+31) GL_ARB_framebuffer_sRGB
+32) GL_ARB_geometry_shader4
+33) GL_ARB_get_program_binary
+34) GL_ARB_gpu_shader5
+35) GL_ARB_gpu_shader_fp64
+36) GL_ARB_half_float_pixel
+37) GL_ARB_half_float_vertex
+38) GL_ARB_imaging
+39) GL_ARB_instanced_arrays
+40) GL_ARB_internalformat_query
+41) GL_ARB_internalformat_query2
+42) GL_ARB_invalidate_subdata
+43) GL_ARB_map_buffer_alignment
+44) GL_ARB_map_buffer_range
+45) GL_ARB_multi_draw_indirect
+46) GL_ARB_multisample
+47) GL_ARB_multitexture
+48) GL_ARB_occlusion_query
+49) GL_ARB_occlusion_query2
+50) GL_ARB_pixel_buffer_object
+51) GL_ARB_point_parameters
+52) GL_ARB_point_sprite
+53) GL_ARB_program_interface_query
+54) GL_ARB_provoking_vertex
+55) GL_ARB_robust_buffer_access_behavior
+56) GL_ARB_robustness
+57) GL_ARB_sample_shading
+58) GL_ARB_sampler_objects
+59) GL_ARB_seamless_cube_map
+60) GL_ARB_separate_shader_objects
+61) GL_ARB_shader_atomic_counters
+62) GL_ARB_shader_bit_encoding
+63) GL_ARB_shader_image_load_store
+64) GL_ARB_shader_image_size
+65) GL_ARB_shader_objects
+66) GL_ARB_shader_precision
+67) GL_ARB_shader_storage_buffer_object
+68) GL_ARB_shader_subroutine
+69) GL_ARB_shader_texture_lod
+70) GL_ARB_shading_language_100
+71) GL_ARB_shading_language_420pack
+72) GL_ARB_shading_language_include
+73) GL_ARB_shading_language_packing
+74) GL_ARB_shadow
+75) GL_ARB_stencil_texturing
+76) GL_ARB_sync
+77) GL_ARB_tessellation_shader
+78) GL_ARB_texture_border_clamp
+79) GL_ARB_texture_buffer_object
+80) GL_ARB_texture_buffer_object_rgb32
+81) GL_ARB_texture_buffer_range
+82) GL_ARB_texture_compression
+83) GL_ARB_texture_compression_bptc
+84) GL_ARB_texture_compression_rgtc
+85) GL_ARB_texture_cube_map
+86) GL_ARB_texture_cube_map_array
+87) GL_ARB_texture_env_add
+88) GL_ARB_texture_env_combine
+89) GL_ARB_texture_env_crossbar
+90) GL_ARB_texture_env_dot3
+91) GL_ARB_texture_float
+92) GL_ARB_texture_gather
+93) GL_ARB_texture_mirrored_repeat
+94) GL_ARB_texture_multisample
+95) GL_ARB_texture_non_power_of_two
+96) GL_ARB_texture_query_levels
+97) GL_ARB_texture_query_lod
+98) GL_ARB_texture_rectangle
+99) GL_ARB_texture_rg
+100) GL_ARB_texture_rgb10_a2ui
+101) GL_ARB_texture_storage
+102) GL_ARB_texture_storage_multisample
+103) GL_ARB_texture_swizzle
+104) GL_ARB_texture_view
+105) GL_ARB_timer_query
+106) GL_ARB_transform_feedback2
+107) GL_ARB_transform_feedback3
+108) GL_ARB_transform_feedback_instanced
+109) GL_ARB_transpose_matrix
+110) GL_ARB_uniform_buffer_object
+111) GL_ARB_vertex_array_bgra
+112) GL_ARB_vertex_array_object
+113) GL_ARB_vertex_attrib_64bit
+114) GL_ARB_vertex_attrib_binding
+115) GL_ARB_vertex_buffer_object
+116) GL_ARB_vertex_program
+117) GL_ARB_vertex_shader
+118) GL_ARB_vertex_type_2_10_10_10_rev
+119) GL_ARB_viewport_array
+120) GL_ARB_window_pos
+121) GL_ATI_draw_buffers
+122) GL_ATI_texture_float
+123) GL_ATI_texture_mirror_once
+124) GL_S3_s3tc
+125) GL_EXT_texture_env_add
+126) GL_EXT_abgr
+127) GL_EXT_bgra
+128) GL_EXT_bindable_uniform
+129) GL_EXT_blend_color
+130) GL_EXT_blend_equation_separate
+131) GL_EXT_blend_func_separate
+132) GL_EXT_blend_minmax
+133) GL_EXT_blend_subtract
+134) GL_EXT_compiled_vertex_array
+135) GL_EXT_Cg_shader
+136) GL_EXT_depth_bounds_test
+137) GL_EXT_direct_state_access
+138) GL_EXT_draw_buffers2
+139) GL_EXT_draw_instanced
+140) GL_EXT_draw_range_elements
+141) GL_EXT_fog_coord
+142) GL_EXT_framebuffer_blit
+143) GL_EXT_framebuffer_multisample
+144) GL_EXTX_framebuffer_mixed_formats
+145) GL_EXT_framebuffer_multisample_blit_scaled
+146) GL_EXT_framebuffer_object
+147) GL_EXT_framebuffer_sRGB
+148) GL_EXT_geometry_shader4
+149) GL_EXT_gpu_program_parameters
+150) GL_EXT_gpu_shader4
+151) GL_EXT_multi_draw_arrays
+152) GL_EXT_packed_depth_stencil
+153) GL_EXT_packed_float
+154) GL_EXT_packed_pixels
+155) GL_EXT_pixel_buffer_object
+156) GL_EXT_point_parameters
+157) GL_EXT_provoking_vertex
+158) GL_EXT_rescale_normal
+159) GL_EXT_secondary_color
+160) GL_EXT_separate_shader_objects
+161) GL_EXT_separate_specular_color
+162) GL_EXT_shader_image_load_store
+163) GL_EXT_shadow_funcs
+164) GL_EXT_stencil_two_side
+165) GL_EXT_stencil_wrap
+166) GL_EXT_texture3D
+167) GL_EXT_texture_array
+168) GL_EXT_texture_buffer_object
+169) GL_EXT_texture_compression_dxt1
+170) GL_EXT_texture_compression_latc
+171) GL_EXT_texture_compression_rgtc
+172) GL_EXT_texture_compression_s3tc
+173) GL_EXT_texture_cube_map
+174) GL_EXT_texture_edge_clamp
+175) GL_EXT_texture_env_combine
+176) GL_EXT_texture_env_dot3
+177) GL_EXT_texture_filter_anisotropic
+178) GL_EXT_texture_format_BGRA8888
+179) GL_EXT_texture_integer
+180) GL_EXT_texture_lod
+181) GL_EXT_texture_lod_bias
+182) GL_EXT_texture_mirror_clamp
+183) GL_EXT_texture_object
+184) GL_EXT_texture_shared_exponent
+185) GL_EXT_texture_sRGB
+186) GL_EXT_texture_sRGB_decode
+187) GL_EXT_texture_storage
+188) GL_EXT_texture_swizzle
+189) GL_EXT_texture_type_2_10_10_10_REV
+190) GL_EXT_timer_query
+191) GL_EXT_transform_feedback2
+192) GL_EXT_vertex_array
+193) GL_EXT_vertex_array_bgra
+194) GL_EXT_vertex_attrib_64bit
+195) GL_EXT_import_sync_object
+196) GL_IBM_rasterpos_clip
+197) GL_IBM_texture_mirrored_repeat
+198) GL_KHR_debug
+199) GL_KTX_buffer_region
+200) GL_NV_alpha_test
+201) GL_NV_blend_minmax
+202) GL_NV_blend_square
+203) GL_NV_complex_primitives
+204) GL_NV_compute_program5
+205) GL_NV_conditional_render
+206) GL_NV_copy_depth_to_color
+207) GL_NV_copy_image
+208) GL_NV_depth_buffer_float
+209) GL_NV_depth_clamp
+210) GL_NV_draw_texture
+211) GL_NV_ES1_1_compatibility
+212) GL_NV_explicit_multisample
+213) GL_NV_fbo_color_attachments
+214) GL_NV_fence
+215) GL_NV_float_buffer
+216) GL_NV_fog_distance
+217) GL_NV_fragdepth
+218) GL_NV_fragment_program
+219) GL_NV_fragment_program_option
+220) GL_NV_fragment_program2
+221) GL_NV_framebuffer_multisample_coverage
+222) GL_NV_geometry_shader4
+223) GL_NV_gpu_program4
+224) GL_NV_gpu_program4_1
+225) GL_NV_gpu_program5
+226) GL_NV_gpu_program_fp64
+227) GL_NV_gpu_shader5
+228) GL_NV_half_float
+229) GL_NV_light_max_exponent
+230) GL_NV_multisample_coverage
+231) GL_NV_multisample_filter_hint
+232) GL_NV_occlusion_query
+233) GL_NV_packed_depth_stencil
+234) GL_NV_parameter_buffer_object
+235) GL_NV_parameter_buffer_object2
+236) GL_NV_path_rendering
+237) GL_NV_pixel_data_range
+238) GL_NV_point_sprite
+239) GL_NV_primitive_restart
+240) GL_NV_register_combiners
+241) GL_NV_register_combiners2
+242) GL_NV_shader_atomic_counters
+243) GL_NV_shader_atomic_float
+244) GL_NV_shader_buffer_load
+245) GL_NV_shader_storage_buffer_object
+246) GL_NV_texgen_reflection
+247) GL_NV_texture_barrier
+248) GL_NV_texture_compression_vtc
+249) GL_NV_texture_env_combine4
+250) GL_NV_texture_expand_normal
+251) GL_NV_texture_lod_clamp
+252) GL_NV_texture_multisample
+253) GL_NV_texture_rectangle
+254) GL_NV_texture_shader
+255) GL_NV_texture_shader2
+256) GL_NV_texture_shader3
+257) GL_NV_transform_feedback
+258) GL_NV_transform_feedback2
+259) GL_NV_vertex_array_range
+260) GL_NV_vertex_array_range2
+261) GL_NV_vertex_attrib_integer_64bit
+262) GL_NV_vertex_buffer_unified_memory
+263) GL_NV_vertex_program
+264) GL_NV_vertex_program1_1
+265) GL_NV_vertex_program2
+266) GL_NV_vertex_program2_option
+267) GL_NV_vertex_program3
+268) GL_NVX_conditional_render
+269) GL_NVX_gpu_memory_info
+270) GL_OES_compressed_paletted_texture
+271) GL_OES_depth24
+272) GL_OES_depth32
+273) GL_OES_depth_texture
+274) GL_OES_element_index_uint
+275) GL_OES_fbo_render_mipmap
+276) GL_OES_get_program_binary
+277) GL_OES_mapbuffer
+278) GL_OES_packed_depth_stencil
+279) GL_OES_point_size_array
+280) GL_OES_point_sprite
+281) GL_OES_rgb8_rgba8
+282) GL_OES_read_format
+283) GL_OES_standard_derivatives
+284) GL_OES_texture_3D
+285) GL_OES_texture_float
+286) GL_OES_texture_float_linear
+287) GL_OES_texture_half_float
+288) GL_OES_texture_half_float_linear
+289) GL_OES_texture_npot
+290) GL_OES_vertex_array_object
+291) GL_OES_vertex_half_float
+292) GL_SGIS_generate_mipmap
+293) GL_SGIS_texture_lod
+294) GL_SGIX_depth_texture
+295) GL_SGIX_shadow
+296) GL_SUN_slice_accum
+297) GL_WIN_swap_hint
+298) WGL_EXT_swap_control
+glew_result=0 (0 1 2)
+child module: breathing_network
+child module: aug_e
+read graphics_object: aug_e
+child module: cvrg
+read graphics_object: cvrg
+child module: diaphragm
+read graphics_object: diaphragm
+child module: early_i
+read graphics_object: early_i
+child module: ext_int
+read graphics_object: ext_int
+child module: frequency_constants
+read graphics_object: frequency_constants
+child module: pons
+read graphics_object: pons
+child module: post_i
+read graphics_object: post_i
+child module: pre_i
+read graphics_object: pre_i
+child module: raphe
+read graphics_object: raphe
+child module: rtn
+read graphics_object: rtn
+child module: rvrg
+read graphics_object: rvrg
+child module: speech
+read graphics_object: speech
+child module: voltage_constants
+read graphics_object: voltage_constants
+child module: weights_constants
+read graphics_object: weights_constants
+read graphics_object: breathing_network
+connector: breathing_circuit
+child module: file_export
+read graphics_object: file_export
+child module: file_export_constants
+read graphics_object: file_export_constants
+read graphics_object: scene
+connector: file_export_blc
+connector: file_export_trigger_blc

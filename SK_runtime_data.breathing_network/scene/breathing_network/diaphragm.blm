@@ -1,0 +1,10 @@
+BL_leaky_integrate_and_fire_module
+number_of_inputs=1
+use_firing=0
+voltage=0.
+maximum_voltage=1.
+minimum_voltage=0.
+membrane_frequency_constant=10
+input_frequency_constants=0 
+input_voltages=0.
+time_step=0.001

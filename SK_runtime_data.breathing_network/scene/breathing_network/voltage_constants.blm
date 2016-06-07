@@ -1,0 +1,36 @@
+BL_constant_module
+
+#voltage constants
+
+number_of_values=10
+
+values[0]=real 1 10
+value_names[0]=pre_i
+
+values[1]=real 1 10
+value_names[1]=early_i
+
+values[2]=real 1 10
+value_names[2]=post_i
+
+values[3]=real 1 10
+value_names[3]=aug_e
+
+values[4]=real 1 10
+value_names[4]=pons
+
+values[5]=real 1 10
+value_names[5]=rtn
+
+values[6]=real 1 10
+value_names[6]=raphe
+
+values[7]=real 1 10
+value_names[7]=rvrg
+
+values[8]=real 1 10
+value_names[8]=diaphragm
+
+values[9]=real 1 10
+value_names[9]=ext_int
+
